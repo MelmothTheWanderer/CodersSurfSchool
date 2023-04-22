@@ -62,4 +62,25 @@ h1, h2 {
     height:600px;
     width:100%;
     background:url(../images/waves-g1abde4bb4_1920.jpg) no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+}
+
+#hero-outer {
+    height:600px;
+    width:100%;
+    overflow: hidden;
+}
+
+/* adding a little animation to the hero image */
+
+@keyframes hero-zoom {
+    from {
+        opacity: .01;
+    }
+    to {
+        opacity: 1;
+    }
 }
