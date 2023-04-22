@@ -22,12 +22,12 @@
                 
                  
                     <li>
-                        <a href="signup.html">
+                        <a href="signup.html" id="active">
                             Sign Up
                         </a>
                     </li>
                     <li>
-                        <a href="meet.html" id="active">
+                        <a href="meet.html" >
                             Meet Our Team
                         </a>
                     </li>
@@ -44,46 +44,51 @@
 
         </div>
 
-        <section">
-            <div class="staff-container"> 
-                <div class="staff-image-left">
-                    <img src="assets/images/staff/codeinstructor1.webp" alt="A picture of a curly haired man in sunglasses">
-                    <div class="staff-bio">
-                        <h1>
-                            Carlton Smith
-                        </h1>
-                        <p>
-                            Carlton can't surf to save his life , but my gosh he is one of the best coders there is , his reputation on Github is untarnished . 
-                        </p>
-                    </div>
-                </div>
-                <div class="staff-image-left">
-                    <img src="assets/images/staff/surfinstructor2.webp" alt="A picture of a curly haired man in sunglasses">
-                    <div class="staff-bio">
-                        <h1>
-                            Sally "Shredder" Sheridan
-                        </h1>
-                        <p>
-                            Sally dropped out of school to start learning how to surf at the tender age of nine. Now shes dropping into ten foot swells , absolutely sending it.
-                            Currently Sally is our only surf instructor , but we prefer quality over quantity , and Sally is the best in the country.
-                        </p>
-                    </div>
-                </div>
-                <div class="staff-image-left">
-                    <img src="assets/images/staff/surfinstructor1.webp" alt="A picture of a curly haired man in sunglasses">
-                    <div class="staff-bio">
-                        <h1>
-                            Dwayne Donaldson 
-                        </h1>
-                        <p>
-                            Dwayne is our first aid and fire safety compliance officer , and he keeps us all safe so we can focus on whats important . 
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <section class="form-section">
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                <h2>Get ready to surf !<i class="fa-solid fa-umbrella-beach"></i></h2>
+                <label for="fname">First Name</label>
+                <input class="text-input" id="fname" name="first_name" type="text" required>
+                
+                <label for="lname">Last Name</label>
+                <input class="text-input" id="lname" name="last_name" type="text" required>
 
+                <label for="lname">Childs Name</label>
+                <input class="text-input" id="lname" name="last_name" type="text" required>
+
+                <label>Childs Age:</label>
+                <br>
+                <br>
+
+                <input type="radio" id="toddlers" name="age" required>
+                <label for="toddlers"> Age 4-6 </label>
+
+                <input type="radio" id="kids" name="age" required>
+                <label for="kids"> Age 7-10 </label>
+
+
+                <input type="radio" id="tweens" name="age" required>
+                <label for="tweens"> Age 10-13 </label>
+
+
+                <input type="radio" id="teens" name="age" required>
+                <label for="teens"> Age 13-16 </label>
+
+                <br>
+                <br>
+                
+                <label for="email">Email Address</label>
+                <input class="text-input" type="email" id="email" name="email_address" required>
+                
+
+                <label for="turtle">Wetsuit Required?</label>
+                <input type="checkbox" id="turtles" name="turtles" value="yes">
+                
+                <input class="join-button" type="submit" value="Let's Run!">
+
+
+            </form>
         </section>
-
 
         <footer>
             <ul class="social-networks">
