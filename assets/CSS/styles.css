@@ -198,13 +198,49 @@ footer {
 }
 
 .social-networks  i {
-    font-size:160%;
+    font-size:130%;
     margin:1%;
     padding:5%;
     color:#F58634;
 
 }
 
+/* now for the meet the staff page */ 
+
+#spacer {
+
+    /* background-color: red; */
+    height:100px;
+}
+
+.staff-container {
+
+    /* border:4px solid red; */
+
+}
+
+.staff-image-left {
+    box-sizing: border-box;
+    width: 30%;
+    text-align: center;
+    /* border:4px solid #B05A7A; */
+    margin:30px;
+    display:inline-block;
+}
+
+.staff-image-right {
+
+    border:4px solid #B05A7A;
+    margin:30px;
+    display:inline-block;
+
+}
+
+.staff-bio {
+    font-size:200%;
+    /* background-color: blue; */
+    display: inline-block;
+}
 
 
 
