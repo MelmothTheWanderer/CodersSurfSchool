@@ -159,12 +159,28 @@ h1, h2 {
 /* and now for some of the reviews that customers have made */
 
 
+#review-container { 
+    font-size: 30px;
+}
+
 #review-container div {
+    box-sizing: border-box;
+    color: #B05A7A;
+    border:10px solid #B05A7A;
+    padding:10px;
     text-align:center;
-    background-color: red;
+    background-color:rgba(255, 204, 41);
     display:inline-block;
     width:33%;
+    border-radius:5%;
 
 }
+
+.review-card h1 {
+    color: #007965;
+    padding-left: 5px;
+}
+
+
 
 
