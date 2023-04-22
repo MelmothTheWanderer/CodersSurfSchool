@@ -155,3 +155,16 @@ h1, h2 {
     border-radius:50%;
 
 }
+
+/* and now for some of the reviews that customers have made */
+
+
+#review-container div {
+    text-align:center;
+    background-color: red;
+    display:inline-block;
+    width:33%;
+
+}
+
+
