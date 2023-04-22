@@ -16,13 +16,14 @@ body {
 
 
 h1, h2 {
-    font-family: Lobster,cursive;
+    font-family: Roboto,sans-serif;
     text-transform:uppercase;
     letter-spacing: 5px;
     color:#F58634;
 }
 
 #logo {
+    font-family: Lobster, cursive;
     float:left;
     font-size:500%;
     margin-left:30px;
@@ -31,7 +32,6 @@ h1, h2 {
 #menu { 
     font-size:250%;
     letter-spacing:4px;
-
 }
 
 #menu li {
@@ -116,5 +116,42 @@ h1, h2 {
 
 }
 
-/* the club-ethos section * /
+/* the about section */
 
+.about {
+    width:50%;
+    margin: 100px auto;
+    text-align:center;
+    /* background-color: red; */
+    font-size:15px;
+}
+
+.about img {
+    margin: 30px auto;
+    height:300px;
+    width:300px;
+    border-radius:50%;
+}
+
+.about h1 {
+
+    font-size:300%;
+    font-weight: 1000;
+    margin-top:30px;
+}
+
+.about p {
+    font-size:150%;
+    margin-top: 30px;
+}
+
+.about-image-border {
+
+    
+    background-color: #B05A7A ;
+    margin: 30px auto;
+    height:350px;
+    width:350px;
+    border-radius:50%;
+
+}
