@@ -48,5 +48,19 @@ They will then be able to submit a form for signup.
 
 ## Validator Testing 
 
+- HTML 
+    - I ran all of my HTML files and code through the validator , it passed.
+- CSS 
+    - Using the CSS validator , I checked my code to make sure it met the standards set by the W3C, and it passed.
+- Accesibility
+    - I confirmed that the fonts were legible, that all the images had an alt attribute. I ran it through lighthouse in DevTools.
+
+## Deployment
+
+- The site was deployed to Github pages.
+
+## Media
+    - All of the images used in the site were taken from [Pexels](https://www.pexels.com) and [Pixabay](https://pixabay.com/)
+
 
 
