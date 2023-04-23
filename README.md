@@ -5,7 +5,7 @@ Users of this website will be able to ger an overview of what the camp is about.
 Parents will then be able to view the members of staff. 
 They will then be able to submit a form for signup.
 
-![Am_I_resposive]()
+![Am_I_resposive](assets/images/readme_images/amiresponsive.png)
 
 ## Features
 
@@ -14,7 +14,7 @@ They will then be able to submit a form for signup.
     - On the left of this navbar is the site Logo , which is keeping with the theme of both surfing and coding. 
     - To the right of that we have our nav-links , and they are easy to read , and the active page is reflected by the underline of the link
 
-![Am_I_resposive]()
+![Am_I_resposive](assets/images/codersurfkids.webp)
 
 - Sea Image
     - This image is there to add a pleasing look to the website, 
@@ -36,7 +36,7 @@ They will then be able to submit a form for signup.
     - This is a footer where the customer can visit the social media of the camp.
     - This is accessible across all of the pages on the site.
 
-## Testing ## 
+## Testing 
 
 - I tested to see if the pages were working across multiple browsers.
 
@@ -60,7 +60,7 @@ They will then be able to submit a form for signup.
 - The site was deployed to Github pages.
 
 ## Media
-    - All of the images used in the site were taken from [Pexels](https://www.pexels.com) and [Pixabay](https://pixabay.com/)
+-  All of the images used in the site were taken from [Pexels](https://www.pexels.com) and [Pixabay](https://pixabay.com/)
 
 
 
