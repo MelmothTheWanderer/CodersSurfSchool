@@ -366,3 +366,23 @@ footer {
 }
 
 }
+
+@media screen and (max-width:850px) {
+
+    body {
+        background-color: black;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navlinks {
+        margin-bottom: 1rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+    
+}
