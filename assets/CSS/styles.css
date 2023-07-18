@@ -232,20 +232,24 @@ h1, h2 {
 
 
 footer {
+
     font-size:30px;
-    height:150px;
+
 }
 
 .social-networks {
     text-align:center;
+    display:flex;
+    justify-content: center;
+    list-style: none;
 }
 
 .social-networks > li {
-    display:inline;
+    margin:1rem 1rem;
 }
 
 .social-networks  i {
-    font-size:130%;
+    font-size:1rem;
     margin:1%;
     padding:5%;
     color:#F58634;
@@ -367,16 +371,6 @@ footer {
         align-items: center;
     }
 
-
-
-    .staff-image-left {
-        box-sizing: border-box;
-        width: 100%;
-        text-align: center;
-        margin:30px;
-        display:block;
-    }
-
     .about-card {
         flex-direction: column !important;
     }
@@ -431,14 +425,11 @@ footer {
     }
 
     .review-container {
-        /* background-color: red; */
         flex-direction:column;
     }
 
     .review-card {
         width:80%;
     }
-
   
-    
 }
