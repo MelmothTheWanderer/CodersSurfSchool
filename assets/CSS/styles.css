@@ -22,6 +22,7 @@
 .logo {
     margin: 1rem 0 1rem 1rem;
     font-family: Lobster, cursive;
+    font-size:3rem;
 }
 
 .navlinks {
@@ -348,6 +349,15 @@ footer {
 
 @media screen and (max-width: 1200px) {
 
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navlinks {
+        margin-bottom: 1rem;
+    }
+
     .about-section {
         align-items: center;
     }
@@ -376,14 +386,7 @@ footer {
 /* media queries for phone sized screens */
 
 @media screen and (max-width:950px) {
-    #menu {
 
-        clear:left;
-        float:left;
-        margin-left:30px;
-        margin-bottom:20px;
-        line-height:25px;
-}
     #cover-text {
         left:1rem;
     }
@@ -400,16 +403,9 @@ footer {
 
 
 
-    .navbar {
-        flex-direction: column;
-    }
-
-    .navlinks {
-        margin-bottom: 1rem;
-    }
 
     .logo {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .staff-container {
