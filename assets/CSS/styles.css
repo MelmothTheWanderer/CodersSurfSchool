@@ -128,6 +128,7 @@ h1, h2 {
     display:flex;
     flex-direction: column;
     justify-content: space-around;
+
 }
 
 .about-card {
@@ -135,7 +136,7 @@ h1, h2 {
     display:flex;
     flex-direction: row;
     padding:1rem;
-    margin:2rem 10%;
+    margin:2rem 18%;
 
 
 
@@ -193,24 +194,31 @@ h1, h2 {
 /* and now for some of the reviews that customers have made */
 
 
-#review-container { 
-    font-size: 30px;
+.review-container { 
+    font-size: 1rem;
+    display:flex;
+    justify-content: center;
+    align-items:center
 }
 
-#review-container div {
+.review-container div {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
-    color: #B05A7A;
+    margin:1rem;
+    padding:2rem;
+     color: #B05A7A;
     border:10px solid #B05A7A;
-    padding:10px;
-    text-align:center;
+    text-align: center;
     background-color:rgba(255, 204, 41);
-    display:inline-block;
-    width:33%;
     border-radius:5%;
 
 }
 
 .review-card > h2 {
+    font-size:1rem;
     color: #007965;
     padding-left: 5px;
 }
@@ -341,23 +349,7 @@ footer {
         align-items: center;
     }
 
-    #review-card { 
-        margin:30px auto;
-    }
-    
 
-    #review-container div {
-
-        color: #B05A7A;
-        border:10px solid #B05A7A;
-        padding:10px;
-        text-align:center;
-        background-color:rgba(255, 204, 41);
-        display:block;
-        width:100%;
-        border-radius:5%;
-    
-    }
 
     .staff-image-left {
         box-sizing: border-box;
@@ -365,6 +357,10 @@ footer {
         text-align: center;
         margin:30px;
         display:block;
+    }
+
+    .about-card {
+        flex-direction: column !important;
     }
 
 }
@@ -384,13 +380,16 @@ footer {
         left:1rem;
     }
 
-    .about-card {
-        flex-direction: column !important;
+    .review-card > h2 {
+        font-size:1rem;
+ 
     }
+
 
 }
 
 @media screen and (max-width:850px) {
+
 
 
     .navbar {
@@ -402,7 +401,7 @@ footer {
     }
 
     .logo {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .staff-container {
@@ -426,6 +425,16 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-    
+
+    .review-container {
+        /* background-color: red; */
+        flex-direction:column;
+    }
+
+    .review-card {
+        width:80%;
+    }
+
+  
     
 }
