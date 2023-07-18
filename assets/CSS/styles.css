@@ -126,15 +126,18 @@ h1, h2 {
 
 .about-section { 
     display:flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .about-card {
 
     display:flex;
-    flex-direction: column;
-    margin:1rem;
+    flex-direction: row;
     padding:1rem;
-    max-width: 350px;
+    margin:2rem 10%;
+
+
 
 }
 
@@ -168,6 +171,8 @@ h1, h2 {
 
 .about-text {
     text-align: center;
+    margin: 0 2rem;
+    max-width: 500px;
 }
 
 .about-text h2 {
@@ -178,6 +183,10 @@ h1, h2 {
     padding:1rem;
     background-color: lightgrey;
     border-radius: 5%;
+}
+
+.about-card.right {
+    flex-direction: row-reverse;
 }
 
 
@@ -323,6 +332,16 @@ footer {
 
 @media screen and (max-width: 1200px) {
 
+    .about-section {
+        align-items: center;
+    }
+
+    .about-card {
+        /* flex-direction: column; */
+        align-items: center;
+        background-color: green;
+    }
+
     #review-card { 
         margin:30px auto;
     }
@@ -366,35 +385,16 @@ footer {
         left:1rem;
     }
 
-    #about {
-        width:90%;
-        height:1200px;
-        margin:0 auto;
+    .about-card {
+        flex-direction: column !important;
     }
-
-    .left-about-heading, .right-about-heading {
-        width:inherit;
-
-    }
-
-    .left-about-heading h1, .right-about-heading h1 {
-        width:100%;
-        text-align:center;
-
-    }
-
-    .left-about-heading p, .right-about-heading p {
-        text-align:center;
-        padding:0 20px;
-
-}
 
 }
 
 @media screen and (max-width:850px) {
 
     body {
-        background-color: black;
+        /* background-color: black; */
     }
 
     .navbar {
@@ -406,7 +406,7 @@ footer {
     }
 
     .logo {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .staff-container {
