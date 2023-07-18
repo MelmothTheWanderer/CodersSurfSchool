@@ -385,6 +385,10 @@ footer {
         flex-direction: column !important;
     }
 
+    .logo {
+        font-size: 2rem;
+    }
+
 }
 
 /* media queries for phone sized screens */
@@ -435,6 +439,7 @@ footer {
     .staff-text 
 
     .logo {
+
         font-size: 1rem;
     }
 
