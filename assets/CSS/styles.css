@@ -247,6 +247,10 @@ footer {
 
 }
 
+.social-networks a {
+    text-decoration: none;
+}
+
 /* now for the meet the staff page */ 
 
 #spacer {
