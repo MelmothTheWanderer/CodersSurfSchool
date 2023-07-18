@@ -6,11 +6,17 @@
     border:none;
 }
 
+body {
+    background-color: #007965;
+
+}
+
+
 .navbar {
     width:100%;
     z-index: 1;
     background-color: #007965;
-    position:fixed;
+    position:sticky;
     top:0;
     display:flex;
     justify-content: space-between;
@@ -234,7 +240,14 @@ h1, h2 {
 footer {
 
     font-size:30px;
+    /* background-color: blue; */
 
+}
+
+.test-footer {
+    position:relative;
+    width: 100%;
+    bottom: 0;
 }
 
 .social-networks {
@@ -249,9 +262,7 @@ footer {
 }
 
 .social-networks  i {
-    font-size:1rem;
-    margin:1%;
-    padding:5%;
+    font-size:2rem;
     color:#F58634;
 
 }
@@ -262,32 +273,35 @@ footer {
 
 /* now for the meet the staff page */ 
 
-#spacer {
-
-
-    height:100px;
-}
 
 .staff-container {
-
-    display:flex;
+    margin: auto auto;
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 5px;
+    column-gap: 5px;
 }
 
 .staff-container img {
-    height: 250px;
-    width: 250px;
+    height: 294px;
+    width: 294px;
+    margin:1rem;
+    padding:1rem;
 }
 
-
-
-
-
-.staff-bio {
-    font-size:200%;
-    display: inline-block;
+.staff-card {
+    /* background-color: #f16c6b; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.staff-text {
+    max-width: 294px;
+    text-align: center;
 
+}
 
 /* adding a form for signup */
 
@@ -396,7 +410,31 @@ footer {
 @media screen and (max-width:850px) {
 
 
-
+    .staff-container {
+        margin: auto auto;
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .staff-container img {
+        height: 294px;
+        width: 294px;
+        margin:1rem;
+        padding:1rem;
+    }
+    
+    .staff-card {
+        /* background-color: #f16c6b; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .staff-text {
+        max-width: 294px;
+        text-align: center;
+    
+    }
 
     .logo {
         font-size: 1rem;
