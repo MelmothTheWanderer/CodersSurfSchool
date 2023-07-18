@@ -339,7 +339,6 @@ footer {
     .about-card {
         /* flex-direction: column; */
         align-items: center;
-        background-color: green;
     }
 
     #review-card { 
@@ -393,9 +392,6 @@ footer {
 
 @media screen and (max-width:850px) {
 
-    body {
-        /* background-color: black; */
-    }
 
     .navbar {
         flex-direction: column;
