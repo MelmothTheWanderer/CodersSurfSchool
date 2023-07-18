@@ -500,5 +500,9 @@ footer {
     .review-card {
         width:80%;
     }
+
+    .about-text {
+        min-width:300px;
+    }
   
 }
