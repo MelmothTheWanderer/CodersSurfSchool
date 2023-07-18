@@ -7,10 +7,15 @@
 }
 
 .navbar {
-    
+    width:100%;
+    z-index: 1;
+    background-color: #007965;
+    position:fixed;
+    top:0;
     display:flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: .5rem solid #B05A7A;
 
 }
 
@@ -104,10 +109,11 @@ h1, h2 {
     padding-left:10px;
     background-color: rgba(255, 204, 41, .9);
 
-    bottom:30px;
-    right:150px;
-
     position:absolute;
+    bottom:1rem;
+    right:1rem;
+
+ 
     border-radius: 10%;
 
     animation-name: hero-zoom;
@@ -214,16 +220,14 @@ footer {
 
 .staff-container {
 
-
+    display:flex;
 }
 
-.staff-image-left {
-    box-sizing: border-box;
-    width: 30%;
-    text-align: center;
-    margin:30px;
-    display:inline-block;
+.staff-container img {
+    height: 250px;
+    width: 250px;
 }
+
 
 
 
@@ -339,7 +343,7 @@ footer {
         line-height:25px;
 }
     #cover-text {
-        left:0;
+        left:1rem;
     }
 
     #about {
@@ -384,5 +388,23 @@ footer {
     .logo {
         font-size: 1.5rem;
     }
+
+    .staff-container {
+    
+        flex-direction: column;
+    }
+
+    #cover-text {
+        width:100%;
+        margin:0;
+        padding:0;
+        text-align: center;
+        border-radius: 0;
+        bottom:0;
+        left:0;
+        height:auto;
+
+    }
+    
     
 }
