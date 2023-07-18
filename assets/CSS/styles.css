@@ -395,9 +395,25 @@ footer {
 
 @media screen and (max-width:950px) {
 
-    #hero-outer {
-        max-height:300px;
+
+    .about-image-container-outer {
+        width: 240px;
+        height:240px;
     }
+    
+    .about-image-container-inner {
+
+        width: 220px;
+        height:220px;
+    }
+    
+    .about-card img {
+
+        height:200px;
+        width:200px;
+
+    }
+
 
     #cover-text {
         left:1rem;
@@ -416,32 +432,8 @@ footer {
 
 @media screen and (max-width:850px) {
 
-    .about-image-container-outer {
-
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        width: 240px;
-        height:240px;
-        background-color: #FFCC29;
-        border-radius: 50%;
-    }
-    
-    .about-image-container-inner {
-        display:flex;
-        align-items: center;
-        width: 220px;
-        height:220px;
-        background-color: #B05A7A;
-        border-radius: 50%;
-    }
-    
-    .about-card img {
-        margin: 30px auto;
-        height:200px;
-        width:200px;
-        border-radius:50%;
-        margin:auto;
+    #hero-outer {
+        max-height:300px;
     }
 
 
