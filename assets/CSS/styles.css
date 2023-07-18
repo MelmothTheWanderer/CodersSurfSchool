@@ -240,14 +240,10 @@ h1, h2 {
 footer {
 
     font-size:30px;
-    /* background-color: blue; */
-
-}
-
-.test-footer {
     position:relative;
     width: 100%;
     bottom: 0;
+
 }
 
 .social-networks {
@@ -435,6 +431,8 @@ footer {
         text-align: center;
     
     }
+
+    .staff-text 
 
     .logo {
         font-size: 1rem;
