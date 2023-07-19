@@ -54,6 +54,18 @@ Displays an overview of what the Camp is about and it's features.
 
 ![about_section](./assets/images/readme_images/about-section-2.png)
 
+### Footer 
+
+![footer](./assets/images/readme_images/footer_section_2.png)
+
+### Staff Bio's
+
+![staff_bios](./assets/images/readme_images/staff_bios_2.png)
+
+### Form
+
+![form](./assets/images/readme_images/form_to_be_filled_out.png)
+
 
 
 ## Testing 
@@ -95,7 +107,30 @@ Displays an overview of what the Camp is about and it's features.
 
 ## Deployment
 
-- The site was deployed to Github pages.
+### I used Github pages to deploy this project, heres how:
+
+-Login into Github
+-Navigate to the repository for this project. (Coders Surf School)
+-Click on Settings.
+-Click on Pages.
+-Click on source and choose main branch.
+-Click Save.
+-You will be provided with a live link to your hosted webpage!
+
+
+### How to fork this project:
+
+-Login to Github
+-Navigate to the repository for this project. (Coders Surf School)
+-Click the Fork button.
+
+### How to clone this project:
+
+-Log in (or sign up) to GitHub.
+-Navigate to the repository for this project. (Coders Surf School)
+-Click on the code button and copy the link that is provided.
+-Navigate to a folder that you want to use in your editors terminal.
+-Type 'git clone' into the terminal and then paste the link you copied. Hit enter.
 
 ## Media
 -  All of the images used in the site were taken from [Pexels](https://www.pexels.com) and [Pixabay](https://pixabay.com/)
