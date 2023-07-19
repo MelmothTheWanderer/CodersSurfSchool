@@ -177,8 +177,6 @@
      font-size:1rem;
      color: #007965;
 }
- .review-card > h5 {
-}
  footer {
      font-size:30px;
      position:relative;
@@ -377,4 +375,24 @@
      .about-text {
          min-width:300px;
     }
+
+    
+}
+
+.error-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    flex-direction: column;
+}
+
+.error-container h1 {
+    margin-top: 3rem;
+}
+
+#error-image { 
+    height:200px;
+    width:200px;
+    border-radius:50%;
 }
