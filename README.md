@@ -29,10 +29,10 @@ I wanted to make the page look vibrant and "beachy" , so no drab colors, this ha
 
 I chose four colours to make up the color pallette.
 
--#007965
--#B05A7A
--#F58634
--#FFCC29
+    -#007965
+    -#B05A7A
+    -#F58634
+    -#FFCC29
 
 Here is what they look like:
 
@@ -45,17 +45,37 @@ Here is what they look like:
 
 The style of Navbar that I have chosen is a sticky navbar. I have chosen this , because in the first section of the website, the homepage (index.html) is rather long at lower screen sizes, and I did not want the user to have to scroll all the way to the top if they wanted to navigate to another section of the website.
 
+Example of the sticky navbar:
+![stickynavbar](./assets/images/readme_images/stickynav.png)
+
+### About Section
+
+Displays an overview of what the Camp is about and it's features. 
+
+![about_section](./assets/images/readme_images/about-section-2.png)
+
+
+
 ## Testing 
 
-- I tested to see if the pages were working across multiple browsers.
+| Test                              | Result |
+| --------------------------------- | ------ |
+| W3C HTML Validator                | ✓      |
+| W3C CSS Validator                 | ✓      |
+| Lighthouse                        | ✓      |
+| Responsiveness across screensizes | ✓      |  
 
-- I used the "Am I responsive" website to see if my website was responsive.
 
-- I checked to make sure that the text was legible across the differnt sections of the site . 
 
-- I confirmed that the form was working as expected.
+- I tested to see if the pages were working across multiple  browsers.
 
-## Validator Testing 
+- I used the "Am I responsive" website to see if my website was responsive.  
+
+- I checked to make sure that the text was legible across the differnt sections of the site .    
+
+- I confirmed that the form was working as expected.  
+
+## Validator Testing  
 
 - HTML 
     - I ran all of my HTML files and code through the validator , it passed.
