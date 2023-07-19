@@ -188,9 +188,12 @@ h1, h2 {
 }
 
 .about-text p {
+
     padding:1rem;
-    background-color: lightgrey;
+    border: .5rem solid #B05A7A;
     border-radius: 5%;
+    color:white;
+    font-size: 1rem;
 }
 
 .text-with-list {
@@ -249,6 +252,7 @@ footer {
     position:relative;
     width: 100%;
     bottom: 0;
+    margin-top:3rem;
 
 }
 
@@ -303,6 +307,17 @@ footer {
     max-width: 294px;
     text-align: center;
 
+}
+
+.staff-text p {
+    color:white;
+    font-size: 1.2rem;
+    border: .5rem solid #B05A7A;
+    padding:1rem;
+}
+
+.staff-text h2 {
+    margin-bottom:1rem;
 }
 
 /* adding a form for signup */
