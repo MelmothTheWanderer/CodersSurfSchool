@@ -5,44 +5,45 @@ Users of this website will be able to ger an overview of what the camp is about.
 Parents will then be able to view the members of staff. 
 They will then be able to submit a form for signup.
 
-![Am_I_resposive](assets/images/readme_images/amiresponsive.png)
+![Am_I_resposive](./assets/images/readme_images/responsive_design.png)
+
+## <ins>Design</ins> 
+
+
+
+### Choice of font
+
+I went for a font that conveyed a sense of fun and play, and something that would make people think of a beach setting.
+Eventually I settled on two fonts to keep things simple, a font for the larger headings, and a smaller , more simpler font for everything else. 
+The larger font was called Lobster, and the smaller font was called Roboto. 
+Both of which were found on Google fonts, and it was simple to add them into the code of my css via a link provided by Google.
+
+![Lobsterfont](./assets/images/readme_images/lobster.png)
+
+
+![robotofont](./assets/images/readme_images/roboto.png)
+
+### Choice of colours
+
+I wanted to make the page look vibrant and "beachy" , so no drab colors, this had to look bold and to stand out with a contrast of cold colors that would convey a sense of the water, and other warmer colours that would remind the user of the sun. Together they help conjur an image of the beach in a users mind, and offer a sense of vibrancy and convey the idea that this is about fun! 
+
+I chose four colours to make up the color pallette.
+
+-#007965
+-#B05A7A
+-#F58634
+-#FFCC29
+
+Here is what they look like:
+
+![colorpallette](./assets/images/readme_images/colourscheme.png)
+
 
 ## Features
 
-- Navigation 
-    - There is a navbar at the top of the website that is present across all the pages of the site. 
-    - On the left of this navbar is the site Logo , which is keeping with the theme of both surfing and coding. 
-    - To the right of that we have our nav-links , and they are easy to read , and the active page is reflected by the underline of the link
+### Sticky Navbar
 
-![Navbar](assets/images/readme_images/header.png)
-
-- Sea Image
-    - This image is there to add a pleasing look to the website, 
-    and has the address included in an overlay.
-
-![SeaImage](assets/images/readme_images/seaimage.png)
-
-- About Us 
-    - This is a section where we convey what it is the camp is about, and try to give the customer a sense of the mood and atmosphere of the summer camp.
-
-![About](assets/images/readme_images/aboutsection.png)
-
-
-- Meet the Staff 
-    - This is a little section to introduce the customer to the staff that are working at the summercamp , and a description of what it is that they do.
-
-![Meet](assets/images/readme_images/meetthestaff.png)
-
-- The sign up form
-    - This is the section of the site where the parent signs up their child for the summer camp, and there are options there including whether or not the child needs a wetsuit etc.
-
-![Signup](assets/images/readme_images/formsection.png)
-
-- Footer
-    - This is a footer where the customer can visit the social media of the camp.
-    - This is accessible across all of the pages on the site.
-
-![Form](assets/images/readme_images/footersection.png)
+The style of Navbar that I have chosen is a sticky navbar. I have chosen this , because in the first section of the website, the homepage (index.html) is rather long at lower screen sizes, and I did not want the user to have to scroll all the way to the top if they wanted to navigate to another section of the website.
 
 ## Testing 
 
