@@ -26,6 +26,7 @@
  .navlinks {
      display:flex;
      justify-content: space-between;
+     list-style: none;
 }
  .navlinks a {
      color:#FFCC29;
