@@ -193,6 +193,12 @@ h1, h2 {
     border-radius: 5%;
 }
 
+.text-with-list {
+    padding:1rem;
+    background-color: lightgrey;
+    border-radius: 5%;
+}
+
 .about-card.right {
     flex-direction: row-reverse;
 }
